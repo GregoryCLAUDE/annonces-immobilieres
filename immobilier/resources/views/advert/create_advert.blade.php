@@ -8,17 +8,37 @@
        <div class="form-group">
          <div class="form-row">
            <div class="col-md-6">
-             <label for="exampleInputName">First name</label>
+             <label for="exampleInputName">Number</label>
              <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
            </div>
            <div class="col-md-6">
-             <label for="exampleInputLastName">Last name</label>
+             <label for="exampleInputLastName">Street</label>
+             <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+           </div>
+         </div>
+         <div class="form-row">
+           <div class="col-md-6">
+             <label for="exampleInputName">building</label>
+             <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+           </div>
+           <div class="col-md-6">
+             <label for="exampleInputLastName">flat</label>
+             <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+           </div>
+         </div>
+         <div class="form-row">
+           <div class="col-md-6">
+             <label for="exampleInputName">zipcode</label>
+             <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+           </div>
+           <div class="col-md-6">
+             <label for="exampleInputLastName">city</label>
              <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
            </div>
          </div>
        </div>
        <div class="form-group">
-         <label for="exampleInputEmail1">Email address</label>
+         <label for="exampleInputEmail1">building</label>
          <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
        </div>
        <div class="form-group">
