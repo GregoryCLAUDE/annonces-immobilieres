@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   @include("layout.head")
-    <body>
+    <body class="fixed-nav sticky-footer bg-dark" id="page-top">
       @include("layout.header")
-      <div class="container">
+      <div class="content-wrapper">
         @yield("content")
       </div>
     </body>
