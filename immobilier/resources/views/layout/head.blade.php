@@ -9,16 +9,16 @@
 
   <!-- Bootstrap core CSS -->
 
-  <link rel="stylesheet" href="bootstrap/sbcss/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href={{URL::asset('bootstrap/sbcss/bootstrap.min.css')}} rel="stylesheet">
 
 
   <!-- Custom fonts for this template -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href={{URL::asset('font-awesome/css/font-awesome.min.css')}} rel="stylesheet" type="text/css">
 
   <!-- Plugin CSS -->
-  <link href="datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href={{URL::asset('datatables/dataTables.bootstrap4.css')}} rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/sb-admin.css" rel="stylesheet">
+  <link href={{URL::asset('css/sb-admin.css')}} rel="stylesheet">
 
 </head>

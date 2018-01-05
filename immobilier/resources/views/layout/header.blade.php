@@ -14,10 +14,10 @@
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="{{route('adv.create')}}">
             <i class="fa fa-fw fa-area-chart"></i>
             <span class="nav-link-text">
-              Charts</span>
+              Create an adv</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
@@ -204,9 +204,17 @@
           </form>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>
-            Logout</a>
+          <a class="nav-link" data-toggle='modal' data-target="#exampleModal"
+              href="{{ route('logout') }}"
+              onclick="event.preventDefault();
+                       document.getElementById('logout-form').submit();">
+                       <i class='fa fa-fw fa-sign-out'>
+                         Logout
+                       </i>
+          </a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+              {{ csrf_field() }}
+          </form>
         </li>
       </ul>
     </div>

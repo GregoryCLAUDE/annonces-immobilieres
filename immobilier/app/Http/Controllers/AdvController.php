@@ -23,7 +23,7 @@ class AdvController extends Controller
      */
     public function create()
     {
-        //
+      return view('advert/create_advert');
     }
 
     /**
