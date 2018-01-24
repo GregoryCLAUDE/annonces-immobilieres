@@ -17,14 +17,13 @@ Route::get('/', function () {
 //routes for adv
 Route::resource('adv', 'AdvController');
 
-//routes for advertiser
-Route::resource('advertiser', 'AdvertiserController');
 
 //routes for housing
 Route::resource('housing', 'HousingController');
 
 //routes for message
 Route::resource('message', 'MessageController');
+
 
 Auth::routes();
 

@@ -14,4 +14,8 @@ class housing extends Model
   public function adv(){
     return $this->('App\adv', 'housing_id', 'adv_id');
   }
+
+  public function images(){
+    return $this->('App\images', 'housing_id', 'images_id');
+  }
 }

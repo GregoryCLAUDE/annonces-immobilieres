@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\housings;
 
-class HousingController extends Controller
+class imagesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -24,7 +23,7 @@ class HousingController extends Controller
      */
     public function create()
     {
-        return view('advert/create_advert');
+        //
     }
 
     /**
@@ -35,36 +34,7 @@ class HousingController extends Controller
      */
     public function store(Request $request)
     {
-      $this->validate(request(), [
-        'street'=>'required',
-        'zipcode'=>'required',
-        'town'=>'required'
-      ]);
-
-      $housing = new housings();
-
-      $housing->number = $request->name;
-      $housing->street = $request->street;
-      $housing->building = $request->building;
-      $housing->flat = $request->flat;
-      $housing->zipcode = $request->zipcode;
-      $housing->city = $request->city;
-      $housing->area = $request->area;
-      $housing->type = $request->type;
-      $housing->furnished = $request->furnished;
-      $housing->price = $request->price;
-      $housing->access = $request->access;
-      $housing->room = $request->room;
-      $housing->floor = $request->floor;
-      $housing->vehicle = $request->vehicle;
-      $housing->bedroom = $request->bedroom;
-      $housing->description = $request->description;
-      $housing->greenhousegaz = $request->greenHouseGaz;
-      $housing->enrgeyclass = $request->EnergyClass;
-      dd($housing);
-      $housing->save();
-
-      return redirect(url('adv/create'));
+        //
     }
 
     /**

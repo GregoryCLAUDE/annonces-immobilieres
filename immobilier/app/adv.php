@@ -11,7 +11,7 @@ class adv extends Model
     ];
 
     public function advertiser (){
-      return $this->belongsTo('App\advertiser', 'adv_id' ,'advertisers_id', );
+      return $this->belongsTo('App\advertiser', 'adv_id' ,'advertisers_id');
     }
 
     public function housing() {
@@ -21,5 +21,5 @@ class adv extends Model
     public function message() {
       return $this->hasMany('App\message', 'adv_id', 'message_id');
     }
-    
+
 }
